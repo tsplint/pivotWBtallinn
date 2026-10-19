@@ -1,0 +1,25 @@
+Package: pivotWBtallinn
+Type: Package
+Title: Convert World Bank Data from Wide to Long Format
+Version: 0.1.0
+Authors@R: 
+    person("Tallinn", "Splinter", , "tallinn.splinter@gmail.com", role = c("aut", "cre"))
+Description: Provides a function to convert World Bank mortality data
+    from wide to long format. The function organizes mortality data by
+    country and year to facilitate data analysis.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Imports: 
+    dplyr,
+    tidyr
+Depends: 
+    R (>= 3.5)
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
