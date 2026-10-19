@@ -6,7 +6,7 @@ utils::globalVariables(c("iso", "X2000", "X2019", "year"))
 #' yearly columns from X2000 to X2019.
 #' @param varname A character string specifying the name of the
 #' mortality variable column.
-#' @return A data frame containing iso, year, and the mortality variable.
+#' @return A data frame containing iso, year (without the X preceding), and the mortality variable.
 #' @examples
 #' wbfun(maternal_mortality, "maternal_mortality")
 #' @export
