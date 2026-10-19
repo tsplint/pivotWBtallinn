@@ -16,15 +16,16 @@ remotes::install_github("tsplint/pivotWBtallinn")
 
 ## Example
 
-This example demonstrates how to use wbfun() to convert World Bank maternal mortality data from wide to long format.
+This example demonstrates how to use wbfun() to convert World Bank maternal mortality data from wide to long format, resulting in 3 columns. 
 
 ``` r
+## basic example code
 library(pivotWBtallinn)
 data("maternal_mortality")
 #Then use wbfun() to reshape the data:
 maternal_long <- wbfun(maternal_mortality, "maternal_mortality")
+#check
 head(maternal_long)
-## basic example code
 ```
 
 The resulting dataset contains three columns:
@@ -37,10 +38,10 @@ maternal_mortality: Maternal mortality values
 
 ## Documentation
 
-For more information about the function and example dataset:
+For more information about the function and example dataset use the following help sections:
 
 ?wbfun
 ?maternal_mortality
 
 ## Source
-Maternal mortality data were obtained from the World Bank: https://data.worldbank.org/indicator/SH.STA.MMRT 
+Maternal mortality data were obtained from the World Bank Dataset: https://data.worldbank.org/indicator/SH.STA.MMRT 
