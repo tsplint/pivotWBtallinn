@@ -34,7 +34,7 @@ iso: Country ISO code
 
 year: Year (2000–2019)
 
-maternal_mortality: Maternal mortality values
+maternal_mortality: Maternal mortality values (this can be changed and specified in the function above)
 
 ## Documentation
 
